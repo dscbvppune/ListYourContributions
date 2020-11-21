@@ -1,0 +1,15 @@
+Description: A web scraping project that display the stories which have votes greater than 99 in descending order from the Hacker News website. It displays the link, title
+and votes of the story . If you want to see the link in your browser then simply in command prompt write (start link_name). It asks upto how many pages the user wants to display 
+the stories.
+
+How to Run this Project: You can run this project in any python code editor or in command prompt if using windows by writing (python projectfile_path)
+
+Tools Used: This project uses Beautiful Soup for web scraping and its various functions , requests module for making requests to a web page, pprint module for printing the data 
+in a more concise way.
+
+While making this project I have to learn some new libraries in Python and how to work with PyCharm. Working in PyCharm is a little bit tricky I have to download or import some 
+new modules and libraries which is required for this project. At the starting of the project, I cannot make a request to the server for accessing the content to the Hacker News
+website but with some help with google :), I figured it out. Initially, it is working on only one page but in the end, I have inserted some loops which will ask up to how many 
+pages did the user wants the stories.
+
+The link for the project is: https://github.com/priyam03-code/HackerNews-Crawler 
